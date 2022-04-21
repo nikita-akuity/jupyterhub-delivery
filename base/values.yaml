@@ -5,6 +5,11 @@ ingress:
   - jupyter-test.demo.akuity.io
 rbac:
   enabled: false
+prePuller:
+  hook:
+    enabled: false
+  continuous:
+    enabled: false
 singleuser:
   image:
     name: jupyter/datascience-notebook
