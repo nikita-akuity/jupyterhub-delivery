@@ -3,6 +3,8 @@ ingress:
   # ingressClassName: traefik
   hosts:
   - jupyter-test.demo.akuity.io
+rbac:
+  enabled: false
 singleuser:
   image:
     name: jupyter/datascience-notebook
