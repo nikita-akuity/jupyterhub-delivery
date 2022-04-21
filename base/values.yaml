@@ -1,0 +1,11 @@
+ingress:
+  enabled: true
+  # ingressClassName: traefik
+  hosts:
+  - jupyter-test.demo.akuity.io
+singleuser:
+  image:
+    name: jupyter/datascience-notebook
+    tag: latest
+proxy:
+  secretToken: akuity
