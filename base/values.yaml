@@ -18,7 +18,7 @@ ingress:
   hosts:
   - jupyter-test.demo.akuity.io
 rbac:
-  enabled: false
+  enabled: true
 prePuller:
   hook:
     enabled: false
